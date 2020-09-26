@@ -1,0 +1,19 @@
+.knowledgePanel__image {
+  object-fit: contain;
+  width: 100%;
+}
+
+.knowledgeGraph__url {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.knowledgeGraph__url > a {
+  text-decoration: none !important;
+  margin-left: 15px;
+  color: black;
+}
+
+.knowledgeGraph__url > a:hover {
+  text-decoration: underline !important;
+}
