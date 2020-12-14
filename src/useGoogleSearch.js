@@ -1,5 +1,5 @@
 import API_KEY from "./keys";
-const CONTEXT_KEY = "1e4b841ff3cd006fe";
+const CONTEXT_KEY = "";
 
 function useGoogleSearch(term, pageNumber) {
   const [data, setData] = useState(null);
